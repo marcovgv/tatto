@@ -1,0 +1,243 @@
+:root {
+  --color-blue-medium: #8fe2e4;
+  --color-purple: #632ce7;
+  --color-gray: #ccc;
+  --color-gray-medium: #f8f9fa;
+  --color-yellow: #fac32c;
+}
+/*navbar*/
+.navbar-main .active{
+  text-decoration: underline wavy #632ce7;
+  text-underline-offset: 9px;
+
+}
+/*Estilos generales*/
+a {
+  color:inherit;
+  text-decoration: none;
+}
+/*fuentes*/
+@font-face {
+  font-family: 'AngillaTattoo';
+  src: url('/fuentes/AngillaTattoo.ttf');
+}
+@font-face {
+  font-family: 'fuente';
+  src: url('/fuentes/Mesquite.otf');
+}
+.fuente{ 
+  font-family: 'AngillaTattoo';
+}
+
+.fuente1{ 
+  font-family: 'fuente';
+  font-size: 10vh;
+  color: #a50303;
+  -webkit-text-stroke: 2px rgb(3, 2, 2);
+  color: transparent; 
+
+
+}.fuente3{ 
+  font-family: 'fuente';
+  font-size: 10vh;
+  color: #a50303;
+  -webkit-text-stroke: 2px rgb(3, 2, 2);
+  
+
+
+}
+.fuente6{ 
+  font-family: 'fuente';
+  font-size: 10vh;
+  color: #ffffff;
+  -webkit-text-stroke: 2px rgb(3, 2, 2);
+  
+
+
+}
+.fondo-negro{
+  background: black;
+}
+
+.fondo22{
+  background: url(../img/portfolio/bg-header2.jpg) no-repeat center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.color33{
+  background: black;
+}
+
+.fuente2{ 
+  font-family: 'AngillaTattoo';
+}
+
+/*header fondo*/
+.header {
+  background: url(../img/portfolio/bg-header3.jpg) no-repeat center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+    
+
+}
+.header::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+/*fondo papel*/
+.papel {
+  background: url(../img/portfolio/fondo\ -papel.webp) no-repeat center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+    
+
+}
+.papel::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
+.bg-black2{
+  background: transparent;
+}
+
+/*bajar texto header*/
+ .bajar{
+ padding-top: 30vh;
+ }
+/*transparente*/
+.header .navbar {
+  background-color: transparent !important;
+}
+@media (max-width: 767px){
+  
+ 
+  .fuente{
+    font-size: 220%;
+  }
+  .caja{
+    background-color: RGBA( 5 , 0 , 0, 0.6 );
+    border: dashed 2px white;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+    
+    .bajar{
+      padding-top: 25vh;
+      }
+/*icono nabvar*/
+.navbar-brand img{
+  width: 125px;
+  }
+
+  }
+
+
+.icono{
+  width: 30%;
+}
+
+.fixed-top2{
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index:1030
+}
+/*Scrool navbar*/
+.activar-navbar{
+background: rgb(0, 0, 0);
+box-shadow: 0 0 .5rem rgba( 0 , 0 , 0, .6 );
+}
+/*icono nabvar*/
+.logo-img img{
+width: 130px;
+}
+
+.color-negro{
+  background: rgb(0, 0, 0);
+width: 100%;  
+}
+
+
+/*header*/
+.contacto-frida {
+  background: url(../img/portfolio/bg-header3.jpg) no-repeat center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+    
+
+}
+.contacto-frida::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+/*boton whastapp*/
+.btn-wsp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  line-height: 63px;
+  bottom:25px;
+  right:20px;
+  background:rgb(20, 163, 72);
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:35px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index:100;
+  transition: all 300ms ease;
+}
+.btn-wsp:hover{
+  background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+  .btn-wsp{
+      width:63px;
+      height:63px;
+      line-height: 66px;
+}
+}
+.icono img{
+z-index: 402;
+position:fixed;
+width:444px;
+  height:60px
+}
+/*boton whastapp*/
+.margen2{
+  padding-top: 44px;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+  .card{
+      width: 80%;
+      padding: auto;
+      margin: auto;
+      
+}
+}
